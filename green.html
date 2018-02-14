@@ -1,0 +1,96 @@
+<h1>green</h1>
+<!DOCTYPE html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+  <style>
+    header {
+      text-align: center;
+      background: url('http://globalmedicalco.com/photos/globalmedicalco/2/9753.jpg');
+      background-size: cover;
+      color: blue;
+    }
+    a {
+      color: yellow;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    img {
+      margin: 49px 0px 0px 0px;
+      border: 10px solid green;
+      border-radius: 5px;
+    }
+    ul {
+      padding: 20px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 1px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      
+    }
+    body{
+      background: purple;
+      color:yellow;
+      font-family: 'Rock Salt', cursive;
+    }
+    
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      h3 {
+        
+    }
+  </style>
+</head>
+<body>
+  <header>
+  
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgsSqAHQ2mksOxhj4ub61jtEPybGCDifCzcQUMSDh5EaFyfjz3yQ">
+    
+  <h3>Hi! I'm Tiffany, a High School Student. Say hello and type your email.</h3>
+  <input type="email" placeholder="Your email" id="green">
+  <input type="submit" onClick="alert(green.value)"> 
+    <h1>Keeping Up With Tiffany!</h1>
+    <ul>
+      <li><a href="https://goo.gl/images/Gcc3Tp" target="_blank">About Me</a></li>
+      <li><a href="https://goo.gl/images/habJCV" target="_blank">Basketball Life</a></li>
+      <li><a href="https://goo.gl/images/pQHuQt" target="_blank">Family Background</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About me</h2>
+    <p>My name is Tiffany Balogun and I am a senior at Jamaica Gateway to the Sciences highschool in New York. My plan is to get a bachelor's degree in Biology/pre med so it can lead me into becoming a cardio surgeon. I play competitive basketball for Jamaica High School.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Basketball Life</h2>
+    <p>Ever since my ninth grade year, I have been playing basktball. I worked my way up to being a captain. I didnt start my ninth grade year, but I am now in 12th grade averaging a double double. I used to have a devine passion for tennis, but basketball has taken its place in a heartbeat. I want to get a scholarship to play at a school in college- hopefully a division 1 school.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Family Background</h2>
+    <p>My family originates in West Africa. We are from Nigeria and Cote D' Ivoire. My parents came to this country in the late 90's in hopes of a better life for them and their future offspring. I am honesty glad that they had the courage to come because my life would have been different if they didn't. I went to Nigeria and I miss it.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Thanks for liking my message! Bless up!");
+    });
+  </script>
+  
+</body>
+*
